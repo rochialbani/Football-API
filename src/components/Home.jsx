@@ -1,5 +1,4 @@
-import Sidebar from "./Sidebar";
-import Header from "./Header";
+
 import data from "../data.json"
 import noData from "../no-data.json"
 
@@ -9,11 +8,8 @@ const Home = () =>{
     const hasInfo = info?.length > 0
 
     return(
-        <div class="main-home">
-            <Header/>
-            <div> 
-                <Sidebar/>
-            </div>
+        <div className="bg-secondary-900 h-[90vh] overflow-y-scroll p-8">
+            
             <p>home</p>
             {/*<main>
                 {
