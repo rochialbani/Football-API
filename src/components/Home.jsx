@@ -10,9 +10,11 @@ const Home = () =>{
     return(
         <div className="bg-secondary-900 h-[90vh] overflow-y-scroll p-8">
             
-            <p>home</p>
+            <main>
+            <img src="/estadio1.png" alt="estadio" className="h-[60vh] w-full rounded-xl"/>
+            </main>
             {/*<main>
-                {
+                {<img src="/estadio1.png" alt="estadio"/>
                     hasInfo?(
                         <ul>
                             {
